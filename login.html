@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://db.onlinewebfonts.com/c/b82329475307e0380dc1ea23f0c35266?family=adineue+PRO" rel="stylesheet" type="text/css"/>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <h1 onclick="window.location.href = 'index.html'">TMHUNGJersey</h1>
+                <button id="menu-icon" onclick="toggleSidebar()">&#9776;</button>
+                <nav id="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="journal.html">Journal</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav> <!-- Menu -->
+            </div>
+        </div>
+    </header>
+    <div id="sidebar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="journal.html">Journal</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="overlay" onclick="toggleSidebar()"></div>
+
+    <div class="login-container">
+        <h1>Welcome to TMHUNGJersey</h1>
+        <form action="login.php" method="post">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>Don't have an account ? <a href="signup.html">Sign up here</a></div>
+            <a href="index.html" class="btn">Login</a>
+        </form>
+    </div>
+</body>
+<footer>
+    <div class="container">
+        <p>&copy; Trần Minh Hưng - DH52111067 - D21_TH11 - Nhóm 19/ Ca 2</p>
+    </div>
+</footer>
+</html>

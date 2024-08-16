@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Madrid Jersey</title>
+    <link rel="stylesheet" href="product_detail.css">
+    <link href="https://db.onlinewebfonts.com/c/b82329475307e0380dc1ea23f0c35266?family=adineue+PRO" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <h1 onclick="window.location.href = 'index.html'">TMHUNGJersey</h1>
+                <button id="menu-icon">&#9776;</button>
+                <nav id="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="journal.html">Journal</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav> <!-- Menu -->
+            </div>
+        </header>
+        <div id="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="journal.html">Journal</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div id="overlay"></div>
+        <div class="product-detail">
+            <div class="image-gallery">
+                <button class="prev" onclick="prevImage('')">&#10094;</button>
+                <img id="mainImage-product2" src="web-jersey/images/RMA2_done/1.avif" alt="Real Madrid Jersey">
+                <button class="next" onclick="nextImage('')">&#10095;</button>
+            </div>        
+            <div class="thumbnails">
+                <img src="web-jersey/images/RMA2_done/1.avif" class="thumbnail" onclick="showImage(0)">
+                <img src="web-jersey/images/RMA2_done/2.avif" class="thumbnail" onclick="showImage(1)">
+                <img src="web-jersey/images/RMA2_done/3.avif" class="thumbnail" onclick="showImage(2)">
+                <img src="web-jersey/images/RMA2_done/4.avif" class="thumbnail" onclick="showImage(3)">
+                <img src="web-jersey/images/RMA2_done/5.avif" class="thumbnail" onclick="showImage(4)">
+                <img src="web-jersey/images/RMA2_done/6.avif" class="thumbnail" onclick="showImage(5)">
+                <img src="web-jersey/images/RMA2_done/7.avif" class="thumbnail" onclick="showImage(6)">
+                <img src="web-jersey/images/RMA2_done/8.avif" class="thumbnail" onclick="showImage(7)">
+            </div>
+            <div class="info">
+                <h2>23-24 REAL MADRID THIRD JERSEY</h2>
+                <p class="price">
+                    <span class="discounted-price">1.390.000<sup>đ</sup></span>
+                    <span class="original-price">1.990.000</span><sup>đ</sup>
+                </p>
+                <div class="details">
+                    <div class="size">
+                        <p>Size</p>
+                        <div class="size-options">
+                            <input type="radio" id="size-s" name="size" value="S">
+                            <label for="size-s">S</label>
+                            <input type="radio" id="size-m" name="size" value="M">
+                            <label for="size-m">M</label>
+                            <input type="radio" id="size-l" name="size" value="L">
+                            <label for="size-l">L</label>
+                            <input type="radio" id="size-xl" name="size" value="XL">
+                            <label for="size-xl">XL</label>
+                            <input type="radio" id="size-xxl" name="size" value="XXL">
+                            <label for="size-xxl">XXL</label>
+                        </div>
+                    </div>
+                    <div class="player">
+                        <p>Select a player</p>
+                        <div class="player-options">
+                            <button onclick="selectButton(this)">ALABA #4</button>
+                            <button onclick="selectButton(this)">BELLINGHAM #5</button>
+                            <button onclick="selectButton(this)">BRAHIM #21</button>
+                            <button onclick="selectButton(this)">CAMAVINGA #12</button>
+                            <button onclick="selectButton(this)">KROOS #8</button>
+                            <button onclick="selectButton(this)">MODRIC #10</button>
+                            <button onclick="selectButton(this)">RODRYGO #11</button>
+                            <button onclick="selectButton(this)">VINI JR #20</button>
+                        </div>
+                    </div>
+                    <p class="stock">Hurry! only 9 left in stock!</p>
+                    <div class="quantity">
+                        <button class="decrease">-</button>
+                        <input type="text" value="1">
+                        <button class="increase">+</button>
+                    </div>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        <div class="description">
+            <h3>Los Blancos Go Bold: The Real Madrid 2023/24 Third Jersey</h3>
+            <p>Unleash your inner rebel with the Real Madrid 2023/24 third jersey. This adidas creation breaks the mold with a sleek black base accented by luxurious gold details, making a statement worthy of the European champions. Crafted from moisture-wicking fabric, the jersey ensures you stay cool and comfortable whether cheering on Los Blancos at the Bernabéu or showcasing your support on the streets.  This jersey is more than just sportswear - it's a symbol of audacious style and unwavering Real Madrid pride.</p>
+        </div>
+        <script src="/JS/product_detail_RMA2.js"></script>
+    </div>
+</body>
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 TMHUNGJersey. All Rights Reserved.</p>
+    </div>
+</footer>
+</html>

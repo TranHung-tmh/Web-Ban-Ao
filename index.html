@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloke Core Style</title>
+    <link rel="stylesheet" href="main1.css">
+    <link href="https://db.onlinewebfonts.com/c/b82329475307e0380dc1ea23f0c35266?family=adineue+PRO" rel="stylesheet" type="text/css"/>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-left">
+            <h1 onclick="window.location.href = 'index.html'">TMHUNGJersey</h1>
+            <button id="menu-icon" onclick="toggleSidebar()">&#9776;</button>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="journal.html">Journal</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav> <!-- Menu -->
+        </div>
+    </header>
+    
+    <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+        <a href="login.html"><i class="fas fa-user login-icon"></i></a> <!-- Biểu tượng đăng nhập -->
+    </div>
+    
+    <div id="sidebar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="journal.html">Journal</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><input type="text" placeholder="Search..."></li>
+            <li><button type="submit">Search</button></li>
+            <a href="login.html"><i class="fas fa-user login-icon"></i></a>
+        </ul>
+    </div>
+
+    <div id="overlay" onclick="toggleSidebar()"></div>
+
+    <section class="hero">
+        <div class="container">
+            <h2 class="hero-heading">Discover the latest fashion trends</h2>
+            <p>Explore our exclusive collection</p>
+            <a href="shop.html" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section>
+        <h2 class="section-title">Featured Products</h2>
+            <!-- Featured Products Grid -->
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product">
+                    <img src="web-jersey/images/RMA_done/1.avif" alt="Product 1">
+                    <h3>2023/24 Real Madrid Home</h3>
+                    <p class="price">1.590.000<sup>đ</sup></p>
+                    <div class="button-container">
+                        <a href="rma.html" class="btn">View Product</a>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product">
+                    <img src="web-jersey/images/BAY_done/1.avif" alt="Product 2">
+                    <h3>2024/25 Bayern Munich Home</h3>
+                    <p class="price">2.190.000<sup>đ</sup></p>
+                    <div class="button-container">
+                        <a href="bay.html" class="btn">View Product</a>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product">
+                    <img src="web-jersey/images/ARS_done/1.avif" alt="Product 3">
+                    <h3>2024/25 Arsenal Home</h3>
+                    <p class="price">2.590.000<sup>đ</sup></p>
+                    <div class="button-container">
+                        <a href="ars.html" class="btn">View Product</a>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product">
+                    <img src="web-jersey/images/JUV_done/1.avif" alt="Product 4">
+                    <h3>2023/24 Juventus Home</h3>
+                    <p class="price">1.090.000<sup>đ</sup></p>
+                    <div class="button-container">
+                        <a href="juv.html" class="btn">View Product</a>
+                    </div>
+                </div>
+
+                 <!-- Product 5 -->
+                 <div class="product">
+                    <img src="web-jersey/images/RMA2_done/1.avif" alt="Product 4">
+                    <h3>2023/24 Real Madrid Away</h3>
+                    <p class="price">1.390.000<sup>đ</sup></p>
+                    <div class="button-container">
+                        <a href="rma2.html" class="btn">View Product</a>
+                    </div>
+                </div>
+
+                 <!-- Product 6 -->
+                 <div class="product">
+                    <img src="web-jersey/images/BAY2_done/1.avif" alt="Product 4">
+                    <h3>2023/24 Bayern Munich LFSLTR</h3>
+                    <p class="price">1.490.000<sup>đ</sup></p>
+                    <div class="button-container">
+                        <a href="bay2.html" class="btn">View Product</a>
+                    </div>
+                </div>
+
+                 <!-- Product 7 -->
+                 <div class="product">
+                    <img src="web-jersey/images/MUN_done/1.avif" alt="Product 4">
+                    <h3>2023/24 Manchester United Home</h3>
+                    <p class="price">2.090.000<sup>đ</sup></p>
+                    <div class="button-container">
+                        <a href="mun.html" class="btn">View Product</a>
+                    </div>
+                </div>
+
+                 <!-- Product 8 -->
+                 <div class="product">
+                    <img src="web-jersey/images/MUN2_done/1.avif" alt="Product 4">
+                    <h3>2023/24 Manchester United Away</h3>
+                    <p class="price">1.590.000<sup>đ</sup></p>
+                    <div class="button-container">
+                        <a href="mun2.html" class="btn">View Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 TMHUNGJersey. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

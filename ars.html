@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Madrid Jersey</title>
+    <link rel="stylesheet" href="product_detail.css">
+    <link href="https://db.onlinewebfonts.com/c/b82329475307e0380dc1ea23f0c35266?family=adineue+PRO" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1 onclick="window.location.href = 'index.html'">TMHUNGJersey</h1>
+            <button id="menu-icon">&#9776;</button>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="journal.html">Journal</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav> <!-- Menu -->
+        </div>
+    </header>
+    <div id="sidebar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="journal.html">Journal</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div id="overlay"></div>
+        <div class="product-detail" id = "product2">
+            <div class="image-gallery">
+                <button class="prev" onclick="prevImage('')">&#10094;</button>
+                <img id="mainImage-product2" src="web-jersey/images/ARS_done/1.avif" alt="Arsenal Jersey">
+                <button class="next" onclick="nextImage('')">&#10095;</button>
+            </div>        
+            <div class="thumbnails">
+                <img src="web-jersey/images/ARS_done/1.avif" class="thumbnail" onclick="showImage(0)">
+                <img src="web-jersey/images/ARS_done/2.avif" class="thumbnail" onclick="showImage(1)">
+                <img src="web-jersey/images/ARS_done/3.avif" class="thumbnail" onclick="showImage(2)">
+                <img src="web-jersey/images/ARS_done/4.avif" class="thumbnail" onclick="showImage(3)">
+                <img src="web-jersey/images/ARS_done/5.avif" class="thumbnail" onclick="showImage(4)">
+                <img src="web-jersey/images/ARS_done/6.avif" class="thumbnail" onclick="showImage(5)">
+                <img src="web-jersey/images/ARS_done/7.avif" class="thumbnail" onclick="showImage(6)">
+                <img src="web-jersey/images/ARS_done/8.avif" class="thumbnail" onclick="showImage(7)">
+            </div>
+            <div class="info">
+                <h2>24-25 ARSENAL HOME JERSEY</h2>
+                <p class="price">
+                    <span class="discounted-price">2.590.000<sup>đ</sup></span>
+                    <span class="original-price">3.200.000</span><sup>đ</sup>
+                </p>
+                <div class="details">
+                    <div class="size">
+                        <p>Size</p>
+                        <div class="size-options">
+                            <input type="radio" id="size-s" name="size" value="S">
+                            <label for="size-s">S</label>
+                            <input type="radio" id="size-m" name="size" value="M">
+                            <label for="size-m">M</label>
+                            <input type="radio" id="size-l" name="size" value="L">
+                            <label for="size-l">L</label>
+                            <input type="radio" id="size-xl" name="size" value="XL">
+                            <label for="size-xl">XL</label>
+                            <input type="radio" id="size-xxl" name="size" value="XXL">
+                            <label for="size-xxl">XXL</label>
+                        </div>
+                    </div>
+                    <div class="player">
+                        <p>Select a player</p>
+                        <div class="player-options">
+                            <button onclick="selectButton(this)">SAKA #7</button>
+                            <button onclick="selectButton(this)">ODEGAARD #8</button>
+                            <button onclick="selectButton(this)">RICE #41</button>
+                            <button onclick="selectButton(this)">HAVERTZ #29</button>
+                            <button onclick="selectButton(this)">JESUS #9</button>
+                            <button onclick="selectButton(this)">MARTINELLI #11</button>
+                            <button onclick="selectButton(this)">TROSSARD #19</button>
+                            <button onclick="selectButton(this)">WHITE #4</button>
+                        </div>
+                    </div>
+                    <p class="stock">Pre-order: expected delivery within 7 days</p>
+                    <div class="quantity">
+                        <button class="decrease">-</button>
+                        <input type="text" value="1">
+                        <button class="increase">+</button>
+                    </div>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        <div class="description">
+            <h3>Lead the Charge in Red: The Arsenal 24-25 Home Jersey</h3>
+            <p>Don the colors of victory with the all-new Arsenal 24-25 home jersey. This adidas creation boasts the iconic red and white stripes, a timeless symbol of the Gunners' spirit. Crafted with moisture-wicking technology, the jersey ensures you stay cool and comfortable while cheering on your team at the Emirates or conquering the streets. Represent your North London pride and pre-order your Arsenal 24-25 home jersey today!</p>
+        </div>
+        <script src="/JS/product_detail_ARS.js"></script>
+    </div>
+</body>
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 TMHUNGJersey. All Rights Reserved.</p>
+    </div>
+</footer>
+</html>
